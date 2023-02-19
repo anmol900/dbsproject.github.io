@@ -1,0 +1,131 @@
+body
+{
+    background-color: rgba(12, 5, 27, 0.984);
+}
+.small_window-1,.small_window-2
+{
+    background-color: rgba(12, 5, 27, 0.984);
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-style:ridge;
+    border-color: aqua;
+    border-width: 5px;
+    margin-top: 50px;
+    /* align-self: center; */
+    transition: 0.4s;
+    
+    
+    
+}
+
+.perinfo
+{
+    word-break: break-all;
+    text-align: center;
+    
+}
+.about
+{
+    display: block;
+    
+    word-break: break-all;
+}
+.dp
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border-style: ridge;
+    border-color: aqua;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.abouttext
+{
+    width: 100%;
+    font-size: large;
+}
+.button
+{
+    
+    padding: 15px ;
+    background-color: rgba(12, 5, 27, 0.984);
+    color: aqua;
+    
+    
+    transition:0.4s;
+    margin-top: 100px;
+    border-width: 2px;
+    border-color: aqua;
+
+}
+.button:hover
+{
+    transition: 0.4s;
+    background-color: aqua;
+    color: rgba(12, 5, 27, 0.984);
+    cursor: pointer;
+    
+}
+.bigwindow
+{
+    padding-left: 25%;
+}
+.Name
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    
+}
+.roll
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    
+}
+.btext
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.title
+{
+    background-color: rgba(12, 5, 27, 0.984);
+    color: aqua;
+    border-style: groove;
+    border-color: rgb(153, 42, 243);
+    margin-bottom: 100px;
+
+}
+.titletext
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin: 20px;
+    
+}
+.small_window-1:hover
+{
+    width: 1050px;
+    height: 105%;
+    transition: 0.4s;
+}
+.small_window-2:hover
+{
+    width: 1050px;
+    height: 105%;
+    transition: 0.4s;
+}
+.abouttext
+{
+    color: aqua;
+}
+.nothing
+{
+    width: 20px;
+    height: 100vh;
+    background-color: black;
+}
